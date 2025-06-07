@@ -19,6 +19,7 @@ A modern TypeScript project setup with Node.js runtime and development tools.
 ### Installation
 
 1. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -26,6 +27,7 @@ A modern TypeScript project setup with Node.js runtime and development tools.
 ### Development
 
 Run the project in development mode:
+
 ```bash
 npm run dev
 ```
@@ -33,6 +35,7 @@ npm run dev
 ### Building
 
 Build the project for production:
+
 ```bash
 npm run build
 ```
@@ -40,6 +43,7 @@ npm run build
 ### Running
 
 Run the compiled application:
+
 ```bash
 npm start
 ```
@@ -57,7 +61,7 @@ npm start
 
 ## Project Structure
 
-```
+```text
 ├── src/
 │   └── index.ts          # Main application entry point
 ├── dist/                 # Compiled JavaScript output
@@ -71,6 +75,7 @@ npm start
 ## TypeScript Configuration
 
 The project uses strict TypeScript settings with:
+
 - Target: ES2016
 - Module: ESModule
 - Source directory: `src/`
