@@ -50,6 +50,10 @@ npm start
 - `npm run build` - Compile TypeScript to JavaScript
 - `npm start` - Run the compiled JavaScript application
 - `npm run clean` - Remove the dist directory
+- `npm run lint` - Check code for linting errors
+- `npm run lint:fix` - Fix auto-fixable linting errors
+- `npm run format` - Format code with Prettier
+- `npm run format:check` - Check if code is properly formatted
 
 ## Project Structure
 
@@ -68,7 +72,7 @@ npm start
 
 The project uses strict TypeScript settings with:
 - Target: ES2016
-- Module: CommonJS
+- Module: ESModule
 - Source directory: `src/`
 - Output directory: `dist/`
 - Strict type checking enabled

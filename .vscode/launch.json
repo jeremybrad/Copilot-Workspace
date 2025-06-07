@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Run TypeScript",
             "type": "node",
@@ -8,7 +9,8 @@
             "program": "${workspaceFolder}/src/index.ts",
             "runtimeArgs": [
                 "-r",
-                "ts-node/register"
+                "ts-node/register",
+                "--esm"
             ],
             "env": {
                 "NODE_ENV": "development"
